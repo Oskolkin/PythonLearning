@@ -182,48 +182,83 @@
   <div class="container">
     <div class = "row">
       <div class = "col-9">
-        <h2 class="mt-5">Questions</h2>
+        <h2 class="mt-5">Questions <button type="button" class="btn btn-link">Link</button></h2>
         <div class = "row question">
           <div class = "col-2 ">
             <img class="avatar-question" src="img/Брэдька.png" alt=""> 
+            <button type="button" class="btn btn-secondary mt-4">Like!</button>
+
           </div>
-          <div class = "col-10">
-            <h3> Question 1</h3>
+          <div class = "col-10" style="padding-left: 60px;">
+            <h3><a href="question.html">Question 1</a></h3>
             <p3> Поддерживайте настроение: кофе с корицей вместо оливье, новая ручка для записей или забавный аксессуар для рабочего стола помогут сохранить праздничный вайб.</p3>
+            <h4 class= "mt-5"> <button type="button" class="btn btn-link">Answers (3)</button> Tags: <button type="button" class="btn btn-outline-primary mt-2">Primary</button> <button type="button" class="btn btn-outline-secondary mt-2">Secondary</button> </h4>
           </div>
         </div>
         <div class = "row question">
           <div class = "col-2 ">
-            <img class="avatar-question" src="img/Брэдька.png" alt=""> 
+            <img class="avatar-question" src="img/Джони.png" alt="">
+            <button type="button" class="btn btn-secondary mt-4">Like!</button>
           </div>
-          <div class = "col-10">
-            <h3> Question 2</h3>
+          <div class = "col-10" style="padding-left: 60px;">
+            <h3><a href="question.html">Question 2</a></h3>
             <p3> Поддерживайте настроение: кофе с корицей вместо оливье, новая ручка для записей или забавный аксессуар для рабочего стола помогут сохранить праздничный вайб.</p3>
+            <h4 class= "mt-5"> <button type="button" class="btn btn-link">Answers (3)</button> Tags: <button type="button" class="btn btn-outline-primary mt-2">Primary</button> <button type="button" class="btn btn-outline-secondary mt-2">Secondary</button> </h4>
           </div>
         </div>
         <div class = "row question">
           <div class = "col-2 ">
-            <img class="avatar-question" src="img/Брэдька.png" alt=""> 
+            <img class="avatar-question" src="img/Лео.png" alt=""> 
+            <button type="button" class="btn btn-secondary mt-4">Like!</button>
           </div>
-          <div class = "col-10">
+          <div class = "col-10" style="padding-left: 60px;">
             <h3><a href="question.html">Question 3</a></h3>
             <p3> Поддерживайте настроение: кофе с корицей вместо оливье, новая ручка для записей или забавный аксессуар для рабочего стола помогут сохранить праздничный вайб.</p3>
+            <h4 class= "mt-5"> <button type="button" class="btn btn-link">Answers (3)</button> Tags: <button type="button" class="btn btn-outline-primary mt-2">Primary</button> <button type="button" class="btn btn-outline-secondary mt-2">Secondary</button> </h4>
           </div>
         </div>
       </div>
       <div class = "col-3">
         <h2 class= "mt-5">Tags</h2> 
-      </div>
+          <button type="button" class="btn btn-outline-primary mt-2">Primary</button>
+          <button type="button" class="btn btn-outline-secondary mt-2">Secondary</button>
+          <button type="button" class="btn btn-outline-success mt-2">Success</button>
+          <button type="button" class="btn btn-outline-danger mt-2">Danger</button>
+          <button type="button" class="btn btn-outline-warning mt-2">Warning</button>
+          <button type="button" class="btn btn-outline-info mt-2">Info</button>
+          <button type="button" class="btn btn-outline-light mt-2">Light</button>
+          <button type="button" class="btn btn-outline-dark mt-2">Dark</button>
+        <h2 class= "mt-5">Best members</h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item">An item</li>
+          <li class="list-group-item">A second item</li>
+          <li class="list-group-item">A third item</li>
+          <li class="list-group-item">A fourth item</li>
+          <li class="list-group-item">And a fifth one</li>
+        </ul>
+      </div>       
     </div>
   </div>
 </main>
 
-<footer class="footer mt-auto py-3 bg-body-tertiary">
-  <div class="container">
-    <span class="text-body-secondary">Place sticky footer content here.</span>
-  </div>
-</footer>
-<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 
+<script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<nav aria-label="Page navigation example" style="padding-left: 150px;">
+  <ul class="pagination">
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Previous">
+        <span aria-hidden="true">&laquo;</span>
+      </a>
+    </li>
+    <li class="page-item"><a class="page-link" href="#">1</a></li>
+    <li class="page-item"><a class="page-link" href="#">2</a></li>
+    <li class="page-item"><a class="page-link" href="#">3</a></li>
+    <li class="page-item">
+      <a class="page-link" href="#" aria-label="Next">
+        <span aria-hidden="true">&raquo;</span>
+      </a>
+    </li>
+  </ul>
+</nav>
     </body>
 </html>
