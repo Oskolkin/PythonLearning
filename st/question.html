@@ -146,79 +146,82 @@
         </li>
       </ul>
     </div>
-
-    
 <header>
-  <!-- Fixed navbar -->
-  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
-    <div class="container-fluid">
-      <a class="navbar-brand" href="#">Fixed navbar</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarCollapse">
-        <ul class="navbar-nav me-auto mb-2 mb-md-0">
-          <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="#">Home</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link disabled" aria-disabled="true">Disabled</a>
-          </li>
-        </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
-        </form>
-      </div>
-    </div>
-  </nav>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" style="padding-left:20px ;" href="#">Ask Something!</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <form class="d-flex" role="search" style="padding-left:60px;">
+              <input class="form-control me-2" type="search" placeholder="Задай вопрос" aria-label="Задай вопрос">
+              <button class="btn btn-outline-success" type="submit">Спросить!</button>
+            </form>
+          </div>
+          <div class="collapse navbar-collapse" style="padding-left:650px;color: aliceblue;" >
+            <div class = "row">
+              <div class = "col-2 ">
+                <img class="avatar-header" src="img/Джони.png" alt="">
+              </div>
+              <div class = "col-10" style="padding-left: 35px;">
+                <h3>Иванов С.Д.</h3>
+                <p3 class= "mt-2"> <button type="button" class="btn btn-link"><a href="settings.html">Настройки</a></button> <button type="button" class="btn btn-link">Выйти</button></p3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
 </header>
+    
 
 <!-- Begin page content -->
 <main class="flex-shrink-0">
   <div class="container">
     <div class = "row">
-      <div class = "col-9">
-        <h2 class="mt-5">Questions <button type="button" class="btn btn-link">Link</button></h2>
-        <div class = "row question">
+      <div class = "col-8">
+        <div class = "row mt-5">
           <div class = "col-2 ">
-            <img class="avatar-question" src="img/Брэдька.png" alt=""> 
+            <img class="avatar-questions" src="img/Брэдька.png" alt=""> 
             <button type="button" class="btn btn-secondary mt-4">Like!</button>
-
           </div>
-          <div class = "col-10" style="padding-left: 60px;">
-            <h3><a href="question.html">Question 1</a></h3>
+          <div class = "col-8" style="padding-left: 95px;">
+            <h3>Question 1</h3>
             <p3> Поддерживайте настроение: кофе с корицей вместо оливье, новая ручка для записей или забавный аксессуар для рабочего стола помогут сохранить праздничный вайб.</p3>
-            <h4 class= "mt-5"> <button type="button" class="btn btn-link">Answers (3)</button> Tags: <button type="button" class="btn btn-outline-primary mt-2">Primary</button> <button type="button" class="btn btn-outline-secondary mt-2">Secondary</button> </h4>
+            <h4 class= "mt-5">Tags: <button type="button" class="btn btn-outline-primary mt-2">Primary</button> <button type="button" class="btn btn-outline-secondary mt-2">Secondary</button> </h4>
           </div>
         </div>
-        <div class = "row question">
+        <hr>
+        <div class = "row questions mt-4">
           <div class = "col-2 ">
-            <img class="avatar-question" src="img/Джони.png" alt="">
+            <img class="avatar-question" src="img/Клуни.png" alt="">
             <button type="button" class="btn btn-secondary mt-4">Like!</button>
           </div>
-          <div class = "col-10" style="padding-left: 60px;">
-            <h3><a href="question.html">Question 2</a></h3>
+          <div class = "col-9" style="padding-left: 60px;">
             <p3> Поддерживайте настроение: кофе с корицей вместо оливье, новая ручка для записей или забавный аксессуар для рабочего стола помогут сохранить праздничный вайб.</p3>
-            <h4 class= "mt-5"> <button type="button" class="btn btn-link">Answers (3)</button> Tags: <button type="button" class="btn btn-outline-primary mt-2">Primary</button> <button type="button" class="btn btn-outline-secondary mt-2">Secondary</button> </h4>
+            <h4 class= "mt-5"> <img class="right" src="img/Правильно.png" alt=""> Правильно!</h4>
           </div>
         </div>
-        <div class = "row question">
+        <div class = "row questions mt-4">
           <div class = "col-2 ">
-            <img class="avatar-question" src="img/Лео.png" alt=""> 
+            <img class="avatar-question" src="img/Эдди.png" alt="">
             <button type="button" class="btn btn-secondary mt-4">Like!</button>
           </div>
-          <div class = "col-10" style="padding-left: 60px;">
-            <h3><a href="question.html">Question 3</a></h3>
+          <div class = "col-9" style="padding-left: 60px;">
             <p3> Поддерживайте настроение: кофе с корицей вместо оливье, новая ручка для записей или забавный аксессуар для рабочего стола помогут сохранить праздничный вайб.</p3>
-            <h4 class= "mt-5"> <button type="button" class="btn btn-link">Answers (3)</button> Tags: <button type="button" class="btn btn-outline-primary mt-2">Primary</button> <button type="button" class="btn btn-outline-secondary mt-2">Secondary</button> </h4>
+            <h4 class= "mt-5"> <img class="right" src="img/Неправильно.png" alt=""> Неправильно!</h4>
           </div>
+        </div>
+        <hr>
+        <div class="form-floating">
+        <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+        <label for="floatingTextarea2">Напишите свой ответ здесь</label>
+        <button type="button" class="btn btn-outline-dark mt-2">Отправить</button>
+        <hr>
         </div>
       </div>
-      <div class = "col-3">
+      <div class = "col-4">
         <h2 class= "mt-5">Tags</h2> 
           <button type="button" class="btn btn-outline-primary mt-2">Primary</button>
           <button type="button" class="btn btn-outline-secondary mt-2">Secondary</button>
@@ -230,35 +233,18 @@
           <button type="button" class="btn btn-outline-dark mt-2">Dark</button>
         <h2 class= "mt-5">Best members</h2>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">An item</li>
-          <li class="list-group-item">A second item</li>
-          <li class="list-group-item">A third item</li>
-          <li class="list-group-item">A fourth item</li>
-          <li class="list-group-item">And a fifth one</li>
+          <li class="list-group-item"><a href="">An item</a></li>
+          <li class="list-group-item"><a href="">An item</a></li>
+          <li class="list-group-item"><a href="">An item</a></li>
+          <li class="list-group-item"><a href="">An item</a></li>
+          <li class="list-group-item"><a href="">An item</a></li>
         </ul>
       </div>       
     </div>
   </div>
 </main>
-
+<hr>
 
 <script src="/docs/5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-<nav aria-label="Page navigation example" style="padding-left: 150px;">
-  <ul class="pagination">
-    <li class="page-item">
-      <a class="page-link" href="#" aria-label="Previous">
-        <span aria-hidden="true">&laquo;</span>
-      </a>
-    </li>
-    <li class="page-item"><a class="page-link" href="#">1</a></li>
-    <li class="page-item"><a class="page-link" href="#">2</a></li>
-    <li class="page-item"><a class="page-link" href="#">3</a></li>
-    <li class="page-item">
-      <a class="page-link" href="#" aria-label="Next">
-        <span aria-hidden="true">&raquo;</span>
-      </a>
-    </li>
-  </ul>
-</nav>
     </body>
 </html>
