@@ -1,0 +1,26 @@
+{% extends "inc/base.html" %}
+{% load static %}
+
+{% block content %} 
+    <h2 class="mt-5">New questions <button type="button" class="btn btn-link">Hot questions</button></h2>
+    {% include "inc/question.html" %}    
+{% endblock content %}
+{% block side_panel %}
+        <h2 class= "mt-5">Tags</h2> 
+          <button type="button" class="btn btn-outline-primary mt-2">Primary</button>
+          <button type="button" class="btn btn-outline-secondary mt-2">Secondary</button>
+          <button type="button" class="btn btn-outline-success mt-2">Success</button>
+          <button type="button" class="btn btn-outline-danger mt-2">Danger</button>
+          <button type="button" class="btn btn-outline-warning mt-2">Warning</button>
+          <button type="button" class="btn btn-outline-info mt-2">Info</button>
+          <button type="button" class="btn btn-outline-light mt-2">Light</button>
+          <button type="button" class="btn btn-outline-dark mt-2">Dark</button>
+        <h2 class= "mt-5">Best members</h2>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item"><a href="">An item</a></li>
+          <li class="list-group-item"><a href="">An item</a></li>
+          <li class="list-group-item"><a href="">An item</a></li>
+          <li class="list-group-item"><a href="">An item</a></li>
+          <li class="list-group-item"><a href="">An item</a></li>
+        </ul>
+{% endblock side_panel %}
