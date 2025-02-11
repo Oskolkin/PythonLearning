@@ -20,6 +20,11 @@ from app import views
 
 urlpatterns = [
     path('', views.index, name="index"),
-    path('ask/', views.ask),
-    path('<int:i>', views.question, name="question")
+    path('ask/', views.ask, name="ask"),
+    path('<int:i>', views.question, name="question"),
+    path('tag/Primary/', views.TagIndex, name="TagIndex"),
+    path('question/35', views.question_35, name="question_page"),
+    path('login/', views.logIn, name="logIn"),
+    path('signup/', views.registration, name="registration"),
+    path("settings/", views.settings, name="settings")
 ]

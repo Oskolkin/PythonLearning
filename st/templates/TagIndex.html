@@ -1,11 +1,11 @@
-{% extends "inc/base.html" %}
+{% extends "inc/TIbase.html" %}
 {% load static %}
 
 {% block content %} 
-        <h2 class="mt-5">New questions <button type="button" class="btn btn-link">Hot questions</button></h2>
-            {% for question in page.object_list %}
-              {% include "inc/question.html" %}
-            {% endfor %}
+  <h2 class="mt-5">Тэг: primary</h2>
+    {% for question in questions %}
+      {% include "inc/question.html" %}
+    {% endfor %}      
 {% endblock content %}
 {% block side_panel %}
         <h2 class= "mt-5">Tags</h2> 
